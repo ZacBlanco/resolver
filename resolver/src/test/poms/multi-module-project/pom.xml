@@ -7,7 +7,7 @@
         <version>91</version>
     </parent>
 
-    <groupId>io.airlift.resolver.test</groupId>
+    <groupId>com.facebook.airlift.resolver.test</groupId>
     <artifactId>resolver-test-parent</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -20,12 +20,12 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.airlift.resolver.test</groupId>
+                <groupId>com.facebook.airlift.resolver.test</groupId>
                 <artifactId>module1</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.airlift.resolver.test</groupId>
+                <groupId>com.facebook.airlift.resolver.test</groupId>
                 <artifactId>module2</artifactId>
                 <version>${project.version}</version>
             </dependency>

@@ -7,9 +7,9 @@
         <version>80</version>
     </parent>
 
-    <groupId>io.airlift.resolver</groupId>
+    <groupId>com.facebook.airlift.resolver</groupId>
     <artifactId>resolver-root</artifactId>
-    <version>1.7-wxd</version>
+    <version>1.7-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <description>Resolve the dependencies of Maven coordinates or POM file</description>
@@ -37,7 +37,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>io.airlift.resolver</groupId>
+                <groupId>com.facebook.airlift.resolver</groupId>
                 <artifactId>resolver</artifactId>
                 <version>${project.version}</version>
             </dependency>
