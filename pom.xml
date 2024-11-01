@@ -2,9 +2,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.airlift</groupId>
+        <groupId>com.github.zacblanco.airbase</groupId>
         <artifactId>airbase</artifactId>
-        <version>80</version>
+        <version>upgradeToJava17-SNAPSHOT</version>
     </parent>
 
     <groupId>com.facebook.airlift.resolver</groupId>
@@ -21,6 +21,21 @@
         <url>https://github.com/airlift/resolver</url>
         <tag>HEAD</tag>
     </scm>
+
+    <repositories>
+        <repository>
+            <id>jitpack</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>jitpack</id>
+            <url>https://jitpack.io</url>
+        </pluginRepository>
+    </pluginRepositories>
+
 
     <properties>
         <dep.maven.version>3.9.9</dep.maven.version>
